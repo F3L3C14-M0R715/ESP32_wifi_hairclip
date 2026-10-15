@@ -17,8 +17,7 @@ void loop() {
     if (WiFi.RSSI(i) > threshold) detected = true;
   }
 
-  // Blip: 200ms flash at low current
-  if (detected) {
+    if (detected) {
     digitalWrite(LED_PIN, HIGH);
     delay(200);
     digitalWrite(LED_PIN, LOW);
