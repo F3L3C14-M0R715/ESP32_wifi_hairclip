@@ -22,5 +22,5 @@ void loop() {
     delay(200);
     digitalWrite(LED_PIN, LOW);
   }
-  delay(3000);
+  delay(30000);
 }
