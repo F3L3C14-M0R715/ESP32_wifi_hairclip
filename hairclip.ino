@@ -7,8 +7,7 @@ const uint32_t SCAN_INTERVAL_US = 30ULL * 1000000; // 30 seconds
 void setup() {
   pinMode(LED_PIN, OUTPUT);
   WiFi.mode(WIFI_STA);
-  WiFi.setSleep(true); // modem sleep during scan, saves ~50%
-}
+  }
 
 void loop() {
   // Scan
